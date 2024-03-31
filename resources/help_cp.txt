@@ -1,0 +1,6 @@
+cp:允许用户将源文件或目录复制到指定的目标文件或目录中。
+使用：
+    cp <source_file> <destination_file>
+    cp <no_extension_file> <destination_directory>
+    cp -f <no_extension_file> <destination_file>
+    cp -r <source_directory> <destination_directory>

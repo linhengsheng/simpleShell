@@ -1,0 +1,6 @@
+ls: 列出指定目录下的文件和子文件夹，蓝色表示文件夹, 白色表示文件
+使用：
+    ls // 显示用户文件
+    ls -a // 显示全部文件
+    ls <your_directory>
+    ls -a <your_directory>

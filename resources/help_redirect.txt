@@ -1,0 +1,5 @@
+>/</>>: 重定向命令
+使用：
+    <command> < <file_name>       // 将文件作为命令的输入
+    <command> > <file_name>       // 将命令的标准输出保存到文件中
+    <command> >> <file_name>      // 将命令的标准输出追加到文件中

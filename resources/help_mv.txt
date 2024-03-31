@@ -1,0 +1,6 @@
+mv:可以调用它来对文件或目录重新命名，或者将文件从一个目录移到另一个目录中。
+使用：
+    mv <source_file> <destination_file>
+    mv <no_extension_file> <destination_directory>
+    mv -f <no_extension_file> <destination_file>
+    mv -r <source_directory> <destination_directory>

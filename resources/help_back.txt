@@ -1,0 +1,3 @@
+&: 后台运行命令，使用之后，运行的程序将不阻塞当前shell
+使用：
+    <command/binary_file> &

@@ -1,0 +1,20 @@
+#ifndef HEAD_H
+#define HEAD_H
+#include <stdio.h>
+#include <malloc.h>
+#include <string.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <pwd.h>
+#include <wait.h>
+#include <sys/types.h>
+#include <sys/ioctl.h>
+#include <limits.h>
+#include <termios.h>
+#include <dirent.h>
+#include <sys/stat.h>
+#include <signal.h>
+#include <fcntl.h>
+#include <time.h>
+#endif

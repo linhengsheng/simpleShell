@@ -1,0 +1,17 @@
+ls . | ../test
+ls .. | ../test < test.txt > test1.txt
+ls ~/Code | ../test > test1.txt
+../test < test.txt > test1.txt
+../test < test.txt | ../test
+ls ../ | ../test > test1.txt | ../test
+
+# 上述 > 符号换成 >> 重新测试结果
+# test二进制文件是用来打印接收的所有内容的
+# test3二进制文件是消费者生产者进程，为实验的某个作业测试，可以用来测试后台命令
+../test3 &
+# 也可以使用上述管道的测试命令来测试后台命令
+
+# 其它的命令如rm mv cd ls tree等要注意检查根目录的有效性: 如是否支持解析 "~/file" 的解析，基本(ls rm cd tree exe redirect)都修改过了，应该是支持的
+# 管道命令是调用其它命令执行的，所以应该不需要解析 ~/file 这样的文件
+
+# 后面的两个命令cp, mv可以参考其它命令的实现来定义错误处理

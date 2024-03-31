@@ -1,0 +1,3 @@
+cd:允许用户改变当前工作目录，切换到指定的路径。
+使用：
+    cd <destination_directory>

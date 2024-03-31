@@ -1,0 +1,7 @@
+history:调用它来显示之前输入的命令历史记录，方便回顾和重用命令。
+使用：
+    history                     // 显示最近100条命令
+    history -a                  // 显示全部历史命令
+    history -d <index_num>      // 删除某个index的历史命令，下次启动shell时重新加载
+    history -d all              // 删除全部历史命令，下次启动shell时重新加载
+    history -c                  // 清空全部历史命令，下次启动shell时不会重新加载
